@@ -1,0 +1,20 @@
+import React from "react";
+
+import Character from "./Character";
+
+function CharacterList(props) {
+    console.log('running char list');
+    return (
+        <div>
+            {props.characters.map(characterInMap => (
+                <Character
+                    key={characterInMap.created}
+                    characterOnProps={characterInMap}
+                />
+
+            ))}
+        </div>
+    );
+};
+
+export default CharacterList;
