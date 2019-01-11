@@ -3,6 +3,7 @@ import React from "react";
 import Dog from "./Dog";
 
 function DogList(props) {
+    console.log("getting dogs");
     return (
         <div>
            {props.dogs.map(dogInMap => (

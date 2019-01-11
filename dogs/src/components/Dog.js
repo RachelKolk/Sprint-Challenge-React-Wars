@@ -3,7 +3,7 @@ import React from "react";
 const Dogs = props => {
     return (
         <div>
-            <img src={`${props.dogOnProps.index}`} alt="Basset Hound"/>
+            <img src={`${props.dogOnProps}`} alt="Basset Hound"/>
         </div>
     );
 }

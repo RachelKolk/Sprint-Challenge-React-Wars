@@ -22,7 +22,7 @@ class App extends Component {
                 return res.json();
             })
             .then(data => {
-                this.setState({ dogPhotos: data.results });
+                this.setState({ dogPhotos: data.message });
             })
             .catch(err => {
                 throw new Error(err);
