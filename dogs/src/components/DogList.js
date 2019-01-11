@@ -5,7 +5,7 @@ import Dog from "./Dog";
 function DogList(props) {
     console.log("getting dogs");
     return (
-        <div>
+        <div ClassName="dogs">
            {props.dogs.map(dogInMap => (
                <Dog
                   key={dogInMap.index}

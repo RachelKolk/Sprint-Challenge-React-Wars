@@ -32,7 +32,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h1>DOGS!</h1>
+                <h1>Basset Hound!</h1>
                 <DogList
                    dogs={this.state.dogPhotos}
                 /> 
