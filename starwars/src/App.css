@@ -4,5 +4,33 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 3.5rem;
 }
 /* write your parent styles in here for your App.js */
+
+.character {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.characterInfo {
+  padding: 2%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  margin-left: 3%;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 5px;
+}
+
+h3{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Abel', sans-serif;
+}

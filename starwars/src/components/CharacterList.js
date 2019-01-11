@@ -5,9 +5,9 @@ import Character from "./Character";
 function CharacterList(props) {
     console.log('running char list');
     return (
-        <div>
+        <div className="character">
             {props.characters.map(characterInMap => (
-                <Character
+                <Character 
                     key={characterInMap.created}
                     characterOnProps={characterInMap}
                 />
