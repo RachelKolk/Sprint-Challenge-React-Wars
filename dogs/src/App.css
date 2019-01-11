@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 2.5rem;
+  }
+
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+  .indPhoto {
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+    
+  }
